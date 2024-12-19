@@ -7,9 +7,10 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 if(NOT CMAKE_CXX_STANDARD)
-    set(CMAKE_CXX_STANDARD "20" CACHE STRING "Required c++ standard." FORCE)
+    set(CMAKE_CXX_STANDARD "23" CACHE STRING "Required c++ standard." FORCE)
     message(STATUS "Setting CMAKE_CXX_STANDARD = ${CMAKE_CXX_STANDARD}")
 endif()
 
 enable_testing()
 
+add_executable(${PROJECT_NAME} src/main.cpp)
