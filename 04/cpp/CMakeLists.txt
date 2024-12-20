@@ -14,3 +14,4 @@ endif()
 enable_testing()
 
 add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME}_2 src/main2.cpp)
