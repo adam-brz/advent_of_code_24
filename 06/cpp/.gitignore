@@ -1,0 +1,9 @@
+.vscode/
+.cache/
+.venv/
+build/
+
+CMakeUserPresets.json
+compile_commands.json
+
+*.pyc
